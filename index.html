@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form class="formulario" action="#" id="formulario" >
+        <div>
+            <fieldset>
+                <h2>Contacto</h2>
+                <span class="required_notification">* Datos requeridos</span></br>
+                    <div>
+                        <label for="nombre">Nombre:</label></br>
+                        <input type="text" name="nombre" placeholder="Nombre" required /></br>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label></br>
+                        <input type="email" name="email" placeholder="example@email.com" required /></br>
+                    </div>
+                    <div>
+                        <label for="website">Sitio web:</label></br>
+                        <input type="url" name="website" placeholder="https://sercodigo.com" required pattern="(http|https)://.+" /></br>
+                    </div>
+                    <div>
+                        <label for="message">Mensaje:</label></br>
+                        <textarea name="message" cols="40" rows="6" required></textarea></br>
+                    </div>
+                    <button class="submit" type="submit">Enviar</button></br>
+            </fieldset>
+        </div>
+    </form>
+    
+</body>
+</html>
